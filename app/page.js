@@ -43,7 +43,7 @@ export default function Home() {
       <div className="sm:w-[70vw] w-[90vw] sm:mt-14 mt-6 sm:mx-auto mx-auto h-dvh ">
         <div className="flex gap-7 sm:gap-10 items-center" >
           <div className="w-24 h-24 rounded-full overflow-hidden">
-            <img src="/PROFILE.jpg" className="w-full h-full  object-cover transition-transform duration-300 ease-in-out hover:scale-110" alt="" />
+            <img src="/PROFILE.jpg" className="w-full h-full  object-cover transition-transform duration-300 ease-in-out hover:scale-110" alt="logo" />
           </div>
           <div>
             <h1 className="text-2xl">RITHU</h1>
@@ -54,10 +54,10 @@ export default function Home() {
         {/* CONTENT */}
 
         <div className="flex text-[#a1a1a6] flex-col gap-5 mt-8 text-[14px]">
-          <p>Hi, I'm <span> Rithuharshan </span>,  a 20-year-old Computer Science and Engineering student at <span> NIT Calicut </span>, living Wayanad, Kerala.</p>
-          <p> I'm passionate about <span> full-stack development </span>and love working across both <span> frontend</span> and <span> backend </span>to  build web apps that actually work, are <span>easy to use</span>, and look good enough to make you forget how much coffee went into them</p>
+          <p>Hi, I&#39;m <span> Rithuharshan </span>,  a 20-year-old Computer Science and Engineering student at <span> NIT Calicut </span>, living Wayanad, Kerala.</p>
+          <p> I&#39;m passionate about <span> full-stack development </span>and love working across both <span> frontend</span> and <span> backend </span>to  build web apps that actually work, are <span>easy to use</span>, and look good enough to make you forget how much coffee went into them</p>
           <p>When I&rsquo;m<span> not busy</span>, you&rsquo;ll usually find me watching movies, playing games, diving into<span> random tech experiments</span>, or catching up on some much-needed sleep.</p>
-          <p>I keep <span>chasing ideas that turn into code</span>, half-finished prototypes, or late-night 'aha' moments—and sometimes, something<span> actually works!</span></p>
+          <p>I keep <span>chasing ideas that turn into code</span>, half-finished prototypes, or late-night &#39;aha&#39; moments—and sometimes, something<span> actually works!</span></p>
         </div>
 
         <div className="mt-10 sm:flex-row flex-col flex gap-5 sm:gap-10">
