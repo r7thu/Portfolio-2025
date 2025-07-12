@@ -21,7 +21,7 @@ export async function POST(request){
     const userMail = {
         from: process.env.EMAIL_USER,
         to: gmail,
-        subject: `New review from Rithu `,
+        subject: `New message from Rithu `,
         text: `Hello, this is an automated message.\n\n Thank you for your valuable review.`,
     };
 

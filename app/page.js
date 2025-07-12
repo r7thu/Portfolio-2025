@@ -43,7 +43,7 @@ export default function Home() {
       <div className="sm:w-[70vw] w-[90vw] sm:mt-14 mt-6 sm:mx-auto mx-auto h-dvh ">
         <div className="flex gap-7 sm:gap-10 items-center" >
           <div className="w-24 h-24 rounded-full overflow-hidden">
-            <img src="/PROFILE.jpg" className="w-full h-full  object-cover transition-transform duration-300 ease-in-out hover:scale-110" alt="logo" />
+            <Image src="/PROFILE.jpg" className="w-full h-full  object-cover transition-transform duration-300 ease-in-out hover:scale-110" width={100} height={100} alt="logo" />
           </div>
           <div>
             <h1 className="text-2xl">RITHU</h1>
@@ -54,14 +54,14 @@ export default function Home() {
         {/* CONTENT */}
 
         <div className="flex text-[#a1a1a6] flex-col gap-5 mt-8 text-[14px]">
-          <p>Hi, I&#39;m <span> Rithuharshan </span>,  a 20-year-old Computer Science and Engineering student at <span> NIT Calicut </span>, living Wayanad, Kerala.</p>
+          <p>Hi, I&#39;m <span> Rithuharshan </span>,  a 20-year-old Computer Science and Engineering student at <span> NIT Calicut </span>, living in  Wayanad, Kerala.</p>
           <p> I&#39;m passionate about <span> full-stack development </span>and love working across both <span> frontend</span> and <span> backend </span>to  build web apps that actually work, are <span>easy to use</span>, and look good enough to make you forget how much coffee went into them</p>
           <p>When I&rsquo;m<span> not busy</span>, you&rsquo;ll usually find me watching movies, playing games, diving into<span> random tech experiments</span>, or catching up on some much-needed sleep.</p>
-          <p>I keep <span>chasing ideas that turn into code</span>, half-finished prototypes, or late-night &#39;aha&#39; moments—and sometimes, something<span> actually works!</span></p>
+          <p>I keep <span>chasing ideas that turn into code</span>, half-finished prototypes, or late-night &#39;moonjiye&#39; moments—and sometimes, something<span> actually works!</span></p>
         </div>
 
         <div className="mt-10 sm:flex-row flex-col flex gap-5 sm:gap-10">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rithuu4@gmail.com&su=Inquiry%20from%20Portfolio&body=Hi%20Rithu%2C%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20was%20really%20impressed%20with%20your%20work.%20I%E2%80%99d%20love%20to%20get%20in%20touch%20regarding%20a%20potential%20opportunity.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you.%0D%0A%0D%0ABest%20regards%2C%0D%0A%5BYour%20Name%5D"  target="_blank" rel="noopener noreferrer"  className="bg-[#18181B] relative shrink-0 flex gap-3 items-center w-fit px-4 sm:px-3 sm:py-1 py-2 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px]
+            <a href="mailto:rithuu4@gmail.com?subject=Let's%20Connect&body=Hi%20Rithu,%0A%0AI%20just%20visited%20your%20portfolio.%0AI'd%20love%20to%20connect%20with%20you%20about%20potential%20opportunities.%0A%0ARegards,%0A[Your%20Name]"  target="_blank" rel="noopener noreferrer"  className="bg-[#18181B] relative shrink-0 flex gap-3 items-center w-fit px-4 sm:px-3 sm:py-1 py-2 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px]
             group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
             ">
             {/* <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/> */}
@@ -101,35 +101,35 @@ export default function Home() {
         
           <p className="my-4 text-[15px] text-[#a1a1a6]">Where to find me (digitally) if you wish to</p>
           <div className="flex gap-3 flex-wrap">
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rithuu4@gmail.com" target="_blank"  rel="noopener noreferrer"  className=" relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px]
+          <a href="mailto:rithuu4@gmail.com" target="_blank"  rel="noopener noreferrer"  className=" relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           ">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/mail.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/mail.svg" className="" alt="" />
             Email Me</a>
           <a href="https://www.instagram.com/riitthhu/" target="_blank" rel="noopener noreferrer" className="relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           ">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/instagram.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/instagram.svg" className="" alt="" />
             Instagram</a>
           <a href="https://github.com/r7thu" target="_blank" rel="noopener noreferrer" className="relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           ">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-            <img src="/github (1).svg" className="w-4" alt="" />
+            <Image width={16} height={16} src="/github (1).svg" className="" alt="" />
             GitHub</a>
           <a href="https://www.linkedin.com/in/rithu-harshan-a55993323/" target="_blank" rel="noopener noreferrer" className="relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           ">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/linkedin.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/linkedin.svg" className="" alt="" />
             Linkedin</a>
           <a href="https://x.com/riitthhu" target="_blank" rel="noopener noreferrer" className="relative shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           ">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/twitter.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/twitter.svg" className="" alt="" />
              {/* <Twitter className="w-5 h-5 text-blue-500" /> */}
             Twitter</a>
           </div>
@@ -152,31 +152,31 @@ export default function Home() {
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/javascript.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/javascript.svg"  alt="" />
             JavaScript</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/c.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/c.svg"  alt="" />
             C</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-            <img src="/cpp.svg" className="w-4" alt="" />
+            <Image width={16} height={16} src="/cpp.svg"  alt="" />
             C++</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/html.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/html.svg"  alt="" />
             HTML</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/css.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/css.svg"  alt="" />
             CSS</button>
           </div>
 
@@ -186,37 +186,37 @@ export default function Home() {
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/reactjs.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/reactjs.svg"  alt="" />
             React</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/nextjs.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/nextjs.svg"  alt="" />
             Next.js</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/tailwind.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/tailwind.svg"  alt="" />
             TailwindCSS</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/gsap.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/gsap.svg"  alt="" />
             GSAP</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/axios.png" className="w-[25px] h-[20px]" alt="" />
+             <Image width={16} height={16} src="/axios.png" className="w-[25px] h-[20px]" alt="" />
             Axios</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px] items-center  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)] text-[13.5px] flex gap-[10px]
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/nodemailer.png" className="w-[22px] h-[15px] mb-[2px]" alt="" />
+             <Image width={16} height={16} src="/nodemailer.png" className="w-[22px] h-[15px] mb-[2px]" alt="" />
             NodeMailer</button>
           </div>
 
@@ -226,7 +226,7 @@ export default function Home() {
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/nodejs.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/nodejs.svg"  alt="" />
             Node.js</button>
           </div>
 
@@ -236,7 +236,7 @@ export default function Home() {
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/mongodb.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/mongodb.svg"  alt="" />
             MongoDB</button>
           </div>
           
@@ -246,37 +246,37 @@ export default function Home() {
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/git.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/git.svg"  alt="" />
             Git</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px] items-center
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/github.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/github.svg"  alt="" />
             GitHub</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px] items-center
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/vscode.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/vscode.svg"  alt="" />
             VS Code</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px] items-center
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/vercel.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/vercel.svg"  alt="" />
             Vercel</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px] items-center
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/clerk3.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/clerk3.svg"  alt="" />
             Clerk Auth</button>
           <button className="shrink-0 bg-[#18181B] px-3 py-1 rounded-[10px]  shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.1)]  text-[14px] flex gap-[10px] items-center
           group hover:shadow-xl hover:ring-1 hover:ring-zinc-600 duration-300 overflow-hidden
           relative">
             <div className="h-[50px] w-4 bg-gradient-to-r from-white/10 via-white/50 to-white/10 absolute bottom-0 -left-10 blur-sm -rotate-45 group-hover:left-[150%] duration-600"/>
-             <img src="/cloud.svg" className="w-4" alt="" />
+             <Image width={16} height={16} src="/cloud.svg"  alt="" />
             Cloudinary</button>
           </div>
 
@@ -294,7 +294,7 @@ export default function Home() {
           <img src="/projectzosmoox.png" className="rounded-md object-cover w-full sm:h-60 h-40" alt="" />
           <div>
             <h2 className="text-2xl">E-Commerce Website</h2>
-            <p className="text-[#a1a1a6] text-[13px]">Zosmoox is a full-stack e-commerce site built with <span> Next.js</span>,<span> TailwindCSS</span>,<span> Node.js</span>, and <span>MongoDB</span>. It includes Clerk-powered auth, a slick<span> admin panel</span>, dynamic products, a smart cart, and Cloudinary for images — all running smooth on Vercel. </p>
+            <p className="text-[#a1a1a6] text-[13px]">Zosmoox is a full-stack e-commerce site built with <span> Next.js</span>,<span> TailwindCSS</span>,<span> Node.js</span>, and <span>MongoDB</span>. It includes authentication, a slick<span> admin panel</span>, dynamic products, a smart cart, and <span> Cloudinary </span>for images — all running smooth and <span>responsive </span>on Vercel. </p>
           </div>
         </a>
 
